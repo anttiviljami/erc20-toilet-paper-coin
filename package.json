@@ -1,7 +1,7 @@
 {
-  "name": "erc20-tokens",
+  "name": "erc20-toilet-paper-coin",
   "version": "0.0.1",
-  "description": "Ethereum Token Contracts",
+  "description": "Decentralized global digital currency backed by 3-ply",
   "main": "truffle.js",
   "directories": {
     "test": "test"
