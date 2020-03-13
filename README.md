@@ -3,7 +3,7 @@
 
 [toiletpaper.website](https://toiletpaper.website)
 
-TPC, Toilet-Paper-Coin is a decentralized global digital currency.
+TPC, Toilet-Paper-Coin is a decentralized global digital currency backed by 3-ply toilet paper.
 
 This repo contains TPC Solidity smart contract code for ERC-20 implementation of TPC.
 
