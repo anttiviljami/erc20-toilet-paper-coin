@@ -1,6 +1,6 @@
 ## TPC Toilet-Paper-Coin
 
-#### ( Whitepaper Revision 1.0.0 )
+#### ( Whitepaper Revision 1.0.1 )
 
 #### TPC: The Future of Digital Currency for Hard Times
 -------------------------------
@@ -9,16 +9,15 @@
 As we've seen during times of economic uncertainty, toilet paper becomes a global safe-haven commodity. This whitepaper not only describes the brilliance of a cryptocurrency backed by, well... white paper but also explains the technical and economic reasoning behind its creation.
 
 ### Background
-TPC is the implementation of a cryptocurrency in Solidity and is the first decentralized ERC20 token for Ethereum.  It is an open source community project, not led by an official team or corporation, and therefore does not have ICO capital or other vast amounts of currency/capital that a centralized token project would have.  We believe as a community that decentralization is the true flavor of the blockchain and that is the architecture that provides open and transparent trust for users.   We also believe that Ethereum and ERC20 tokens are a significant segment of the future of blockchain technology.
+TPC is designed to be used as a decentralized store of toilet paper. TPC users can withdraw and deposit physical 3-ply into safe, reliable trustless digital assets.
 
-TPC is designed to be used as a decentralized ‘bitcoin-like’ token within the Ethereum ecosystem and beyond. It avoids problems related to centralization and security because it is powered by the Ethereum Network and by globally distributed anonymous miners.  Since it follows a standard protocol (ERC20), it is stored in a traditional Ethereum wallet and it is transferred using standard software which supports EIP20/ERC20 tokens.   Since every TPC token has been mined in a completely decentralized manner, there is no central body or central organization which controls or enforces any aspect of TPC.  The community owns and operates the token in a flat structure and every individual has the same power over the smart contract as any other individual.  This is on purpose in order to follow the same model of a cryptocurrency and to establish TPC as a commodity.
+TPC users consist of *consumers* and *manufacturers*. Both roles may call the `withdraw()` function, where as manufacturers are voted every 30 days using the `vote()` function. Voting happens by staking or locking TPC for a 30-day period.
 
-One of the most effective side effects of Satoshi Nakamoto's desire to secure the original a cryptocurrency network with Proof of Work hash mining was tethering and bootstrapping the coin to computing power, thereby removing centralized actor jurisdiction. Transitioning the responsibility of work back onto individual miners, government organizations would have no jurisdiction, and indeed visibility, of mined TPC. Government oversight is removed from an equation whereby miners are providing economic effort in direct exchange of a cryptographic commodity.  This facilitates relatively decentralized distribution and establishes all involved parties as stakeholders.  TPC is a first in class token that allows projects to be funded not by centralized, direct-fiat conversion, but through decentralized computing power.
+Users voted to be *manufacturer*, can call the `deposit()` function to store physical toilet paper and create new TPC. Manufacturers are expected to accept and process physical toilet paper deposits from new users.
 
 ### Account System
 
 As an ERC20 token, TPC uses a traditional Ethereum account. These accounts are free and are impossible to hack or to steal from, given that the private key has not been exposed.  TPC can be stored in a Ledger Nano, Trezor or any other wallet that supports ERC20 tokens.
-
 
 ## TPC Manufacturers
 
@@ -74,6 +73,14 @@ function balanceOf(address _owner) constant returns (uint256 balance)
 #### withdraw
 
 Withdraw physical toilet paper to a shipping address.
+
+``` js
+function deposit(uint256 nonce, bytes32 challenge_digest) public returns (bool success)
+```
+
+#### vote
+
+Vote for new manufacturers by staking TPC for 30 days.
 
 ``` js
 function deposit(uint256 nonce, bytes32 challenge_digest) public returns (bool success)
