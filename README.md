@@ -1,4 +1,4 @@
-# ERC-20 Toilet Paper Coin
+# 🧻 ERC-20 Toilet Paper Coin
 [![License](http://img.shields.io/:license-mit-blue.svg)](https://github.com/anttiviljami/erc20-toilet-paper-coin/blob/master/LICENSE)
 
 [toiletpaper.website](https://toiletpaper.website)
@@ -6,6 +6,10 @@
 TPC, Toilet-Paper-Coin is a decentralized global digital currency.
 
 This repo contains TPC Solidity smart contract code for ERC-20 implementation of TPC.
+
+## Whitepaper
+
+[Read here](https://github.com/anttiviljami/erc20-toilet-paper-coin/blob/master/WHITEPAPER.md)
 
 ## Getting Started
 
