@@ -75,7 +75,7 @@ function balanceOf(address _owner) constant returns (uint256 balance)
 Withdraw physical toilet paper to a shipping address.
 
 ``` js
-function deposit(uint256 nonce, bytes32 challenge_digest) public returns (bool success)
+function withdraw(uint256 nonce, bytes32 challenge_digest) public returns (bool success)
 ```
 
 #### vote
@@ -83,7 +83,7 @@ function deposit(uint256 nonce, bytes32 challenge_digest) public returns (bool s
 Vote for new manufacturers by staking TPC for 30 days.
 
 ``` js
-function deposit(uint256 nonce, bytes32 challenge_digest) public returns (bool success)
+function vote(uint256 nonce, bytes32 challenge_digest) public returns (bool success)
 ```
 
 #### deposit (manufacturer only)
@@ -96,6 +96,10 @@ function deposit(uint256 nonce, bytes32 challenge_digest) public returns (bool s
 
 ### Frequently Asked Questions
 
+#### How do I get my toilet paper?
+
+Just call the withdraw function with your shipping address. The smart contract will automatically ship the toilet paper to you within 2 business days.
+
 #### Does TPC have its own Blockchain?
 
 No. TPC exists on the Ethereum Blockchain as a Smart Contract. This allows it to leverage a faster, more secure and modern crypto environment.
@@ -103,12 +107,6 @@ No. TPC exists on the Ethereum Blockchain as a Smart Contract. This allows it to
 #### Will there be a reward halvening event and when?
 
 No. TPC can only be deposited and withdrawn.
-
-#### Is it bad for the environment.
-
-As long as cryptocurrencies exists, mining will always exist.  Even though mining expends energy, it ultimately reduces corruption in society by providing humanity with decentralized and transparent transactional ledgers.  Therefore the idea similar to humanity having to pay for a gigantic decentralized accounting system or police network which is reducing the widespread financial corruption across the globe.  Just as we pay police officers and accountants for their service, we pay blockchain for its service in the form of energy and computation.
-
-So yeah, probably.
 
 ### References
 
@@ -134,6 +132,6 @@ Back A. "Hashcash - a denial of service counter-measure", 2002. http://www.hashc
 
 Cunningham A, Ethereum Co-Founder Announces DAICO, a new ICO Fundraising Model (January 15, 2018). https://discover.coinsquare.io/investing/daico-new-ico-fundraising-model/
 
-Infernal_toast (contract deployer)
+Infernal_toast
 
-Jay Logelin (jlogelin@fas.harvard.edu)
+Jay Logelin
