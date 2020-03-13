@@ -25,7 +25,7 @@ Anyone with the proper facilities to produce new toilet paper, may become a TPC 
 
 ## Smart Contract
 
-Typically, ERC20 tokens will grant all tokens to the owner or will have an ICO which demands that amounts of Ether be sent to the owner for an initial offering of tokens.  Instead of granting tokens to the 'contract owner', all TPC tokens are locked within the smart contract initially. These tokens are dispensed, 50 at a time, by calling the function 'mint' and using Proof of Work, similar to mining bitcoin classic. The TPC smart contract is the first token to adhere to the ERC541 Draft Specification. As such the following Smart Contract methods are explicitly supported:
+Typically, ERC20 tokens will grant all tokens to the owner or will have an ICO which demands that amounts of Ether be sent to the owner for an initial offering of tokens. Instead TPC works 100% backed by real, physical 3-ply toiled paper you can count on. The smart contract handles TPO transactions as well as creates / destroys tokens when they are converted to physical toilet paper. The smart contract can utilise funds from TPC manufacturers' Amazon accounts to purchase and ship toilet paper to its owner.
 
 ## Token
 ### ERC-20 Interface
