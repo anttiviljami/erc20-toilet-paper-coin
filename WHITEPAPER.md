@@ -1,6 +1,6 @@
 ## TPC Toilet-Paper-Coin
 
-#### ( Whitepaper Revision 1.0.1 )
+#### ( Whitepaper Revision 1.0.2 )
 
 #### TPC: The Future of Digital Currency for Hard Times
 -------------------------------
@@ -42,7 +42,7 @@ function name() constant returns (string name)
 
 #### symbol
 
-Returns the symbol of the token. e.g. `"0xBTC"`.
+Returns the symbol of the token. e.g. `"TPC"`.
 
 OPTIONAL - This method can be used to improve usability,
 but interfaces and other contracts MUST NOT expect these values to be present.
