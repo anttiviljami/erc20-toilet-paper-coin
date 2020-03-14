@@ -9,7 +9,7 @@
 As we've seen during times of economic uncertainty, toilet paper becomes a global safe-haven commodity. This whitepaper not only describes the brilliance of a cryptocurrency backed by, well... white paper, but also explains the technical and economic reasoning behind its creation.
 
 ### Background
-TPC is designed to be used as a decentralized store of toilet paper. TPC users can withdraw and deposit physical 3-ply in the blockchain as reliable digital assets. As a decentralised store of a real world valuable asset with 100% guaranteed liquidity, TPC will be very hard to wipe off the crypto market flooded with shitcoins.
+TPC is designed to be used as a decentralized store of toilet paper. TPC users can withdraw and deposit physical 3-ply in the blockchain as reliable digital assets. As a decentralised store of a real world valuable asset with 100% guaranteed liquidity, TPC is a highly investable digital asset designed to wipe various shitcoins off the crypto market.
 
 TPC users consist of *consumers* and *manufacturers*. Both roles may call the `withdraw()` function, where as manufacturers are voted every 30 days using the `vote()` function. Voting happens by staking or locking TPC for a 30-day period.
 
