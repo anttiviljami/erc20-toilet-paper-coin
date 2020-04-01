@@ -135,3 +135,5 @@ Cunningham A, Ethereum Co-Founder Announces DAICO, a new ICO Fundraising Model (
 Infernal_toast
 
 Jay Logelin
+
+![Bogroll](bogroll.jpg)
